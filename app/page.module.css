@@ -2,8 +2,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
+  /* align-items: center; */
+  /* padding: 6rem; */
   min-height: 100vh;
 }
 
@@ -227,4 +227,7 @@
   to {
     transform: rotate(0deg);
   }
+}
+.main {
+  --font-libre: 'Libre Baskerville', serif;
 }
