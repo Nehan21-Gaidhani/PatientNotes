@@ -17,16 +17,12 @@ export default function ExamplePage() {
 
            
             <Box sx={{ display: 'flex', justifyContent: 'center', marginBottom: '80px' }}>
-                <iframe 
-                    width="1215" 
-                    height="690" 
-                    src="//www.youtube-nocookie.com/embed/sS8JudAtJhA" 
-                    title="PatientNotes Overview" 
-                     
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowFullScreen
-                    style={{ borderRadius: '15px', overflow: 'hidden' }}
-                ></iframe>
+                <video 
+                   width="1215" 
+                   height="690" 
+                   controls 
+                   style={{ borderRadius: '15px', overflow: 'hidden' }}
+                >   <source src="/assets/demo2.mp4" type="video/mp4" ></source></video>
                 
             </Box>
 
