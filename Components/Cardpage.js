@@ -5,17 +5,17 @@ import MyCard from './Card';
 
 const info = [
   {
-    image: '/img1.webp', 
+    image: '/assets/img1.webp', 
     title: 'PatientNotes Gets to the Core of Pelvic Health Documentation',
     subtitle: 'GenHealth - Jessica',
   },
   {
-    image: '/img2.webp',
+    image: '/assets/img2.webp',
     title: 'Swift steps for the podiatrist using PatientNotes on the road',
     subtitle: 'Best Foot Forward - Ankush',
   },
   {
-    image: '/img3.webp',
+    image: '/assets/img3.webp',
     title: 'Tech Meets Touch for this Osteopath using AI with PatientNotes',
     subtitle: 'Noosa Osteopathy - Skye',
   },

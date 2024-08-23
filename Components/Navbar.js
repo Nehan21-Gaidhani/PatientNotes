@@ -6,7 +6,7 @@ import Link from '@mui/material/Link';
 import Image from 'next/image';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import logo from "../public/logo-workmark-white.svg"
+import logo from "../public/assets/logo-workmark-white.svg"
 export default function Header() {
   return (
     <AppBar 
@@ -77,9 +77,16 @@ export default function Header() {
 
         
         <Box sx={{ display: { xs: 'none', lg: 'flex' } }}>
-          <Link href="" underline="none" marginRight={3}>
-            <Typography variant="body2" fontWeight="600" color="white">
-              Log in <span aria-hidden="true">→</span>
+          <Link href="/model/patient" underline="none" marginRight={3}>
+            <Typography variant="h6" fontWeight="600" color="white" sx={{
+            animation: 'colorChange 0.9s infinite',
+            '@keyframes colorChange': {
+              '0%': { color: 'lightgreen' },
+              '50%': { color: 'white' },
+              '100%': { color: 'lightgreen' },
+            },
+          }}>
+             New session <span aria-hidden="true">→</span>
             </Typography>
           </Link>
         </Box>

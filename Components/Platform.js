@@ -13,19 +13,19 @@ export default function Platform() {
         </Grid>
         <Grid item xs={12} container justifyContent="center" spacing={9}>
           <Grid item>
-            <Image src="/nookal.webp" alt="Nookal" width={170} height={50} />
+            <Image src="/assets/nookal.webp" alt="Nookal" width={170} height={50} />
           </Grid>
           <Grid item>
-            <Image src="/cliniko.webp" alt="Cliniko" width={170} height={50} />
+            <Image src="/assets/cliniko.webp" alt="Cliniko" width={170} height={50} />
           </Grid>
           <Grid item>
-            <Image src="/genie.webp" alt="Genie" width={170} height={50} />
+            <Image src="/assets/genie.webp" alt="Genie" width={170} height={50} />
           </Grid>
           <Grid item>
-            <Image src="/ppmp.webp" alt="PPMP" width={170} height={50} />
+            <Image src="/assets/ppmp.webp" alt="PPMP" width={170} height={50} />
           </Grid>
           <Grid item>
-            <Image src="/pracsoft.webp" alt="Pracsoft" width={170} height={50} />
+            <Image src="/assets/pracsoft.webp" alt="Pracsoft" width={170} height={50} />
           </Grid>
         </Grid>
         </Grid>
@@ -41,7 +41,7 @@ export default function Platform() {
         </Box>
 
         <Box mt={20} ml={4}>
-            <Image src="/platform-logos.svg" alt="Safari" width={580} height={150} />
+            <Image src="/assets/platform-logos.svg" alt="Safari" width={580} height={150} />
           </Box>
         </Stack>
         

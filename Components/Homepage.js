@@ -2,7 +2,7 @@ import React from 'react';
 import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
 import { Typography } from '@mui/material';
-import pic from '../public/patientphone.webp';
+import pic from '../public/assets/patientphone.webp';
 
 import Image from 'next/image';
 import Head from 'next/head';

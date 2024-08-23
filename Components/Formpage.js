@@ -61,7 +61,7 @@ export default function Chat() {
                   <br></br>
                   Meet one of our team members in a quick intro call.
                 </Typography>
-                <Image src="/chat.jpg" alt="Team Chat" width={450} height={350} layout="intrinsic" />
+                <Image src="/assets/chat.jpg" alt="Team Chat" width={450} height={350} layout="intrinsic" />
               </Box>
             </Grid>
 

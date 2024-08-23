@@ -22,7 +22,7 @@ export default function Review ()  {
           </Typography>
 
           <Grid container alignItems="center" pt={1} >
-               <Avatar alt="Sian Smale" src="Sian.jpg" />
+               <Avatar alt="Sian Smale" src="assets/Sian.jpg" />
                <Box ml={2} textAlign="left">
                  <Typography fontWeight="bold">Sian Smale</Typography>
                </Box>
@@ -42,7 +42,7 @@ export default function Review ()  {
 
             <Grid container alignItems="center" borderTop={1} borderColor="#e5e7eb" pt={1} mt={1}>
               <Grid item xs={1}>
-                <Avatar alt="Sarah Yule" src="Sarah.jpg" />
+                <Avatar alt="Sarah Yule" src="assets/Sarah.jpg" />
               </Grid>
               <Grid item xs={5}   >
                 <Typography fontWeight="bold">Sarah Yule</Typography>
@@ -50,7 +50,7 @@ export default function Review ()  {
               <Grid item xs={6} textAlign="right" >
               <img
       alt="Physica Logo"
-      src="physica-logo.png"
+      src="assets/physica-logo.png"
       style={{ maxWidth: '100%', maxHeight: '50px', objectFit: 'contain' }}
     />
               </Grid>
@@ -72,7 +72,7 @@ export default function Review ()  {
       “As a practicing Musculoskeletal Physiotherapist for over forty years, I believe this innovation has improved the ease and thoroughness of my clinical assessment more than any other approach to this matter that I have used in my Practice. PatientNotes satisfies medico-legal requirements regarding the collection of anamnestic and objective data. It is surprisingly easy to apply clinically. ”
       </Typography>
       <Grid container alignItems="center" pt={4} >
-      <Avatar alt="Greg Collis-Brown" src="Greg.jpg" />
+      <Avatar alt="Greg Collis-Brown" src="assets/Greg.jpg" />
                <Box ml={2} textAlign="left">
                  <Typography fontWeight="bold">Greg Collis-Brown</Typography>
                </Box>
@@ -94,7 +94,7 @@ export default function Review ()  {
              “I find that my patients really value the patient summary I provide, I always hear that "no other Physio has done this for them before". Clinically I genuinely appreciate encountering notes from my colleagues that have been generated using PatientNotes. These notes are not only legible but also remarkably clear and straightforward to comprehend.”
          </Typography>
          <Grid container alignItems="center" pt={3} >
-         <Avatar alt="Matthew Anderson" src="Matthew.jpg" />
+         <Avatar alt="Matthew Anderson" src="assets/Matthew.jpg" />
                <Box ml={2} textAlign="left">
                  <Typography fontWeight="bold">Matthew Anderson</Typography>
                </Box>
@@ -119,7 +119,7 @@ export default function Review ()  {
               “One feature that I particularly like is the ability to verbally conduct the assessment. I inform my patients that I will be using this approach, and they appreciate hearing it. Additionally, being able to verbally indicate the treatment levels, re-assessment plans, and more has significantly enhanced the accuracy of my notes. The feature which particularly saves a lot of time is the ability to generate a GP/specialist letter from the notes. It is well written and quickly generated. This program has truly elevated my note-taking process, and I am excited to keep benefiting from its capabilities. I am very happy with the program overall, and I anticipate significant time savings with continued use.”
          </Typography>
          <Grid container alignItems="center" pt={1} >
-         <Avatar alt="Trish Edwards" src="Trish.jpg" />
+         <Avatar alt="Trish Edwards" src="assets/Trish.jpg" />
                <Box ml={2} textAlign="left">
                  <Typography fontWeight="bold">Trish Edwards</Typography>
                </Box>

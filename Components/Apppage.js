@@ -11,7 +11,7 @@ export default function Appdes() {
           <Grid container spacing={15} >
             <Grid item xs={12} md={6}   >
                 <Box >
-              <Image src="/iphone.webp" alt="iPhone" width={650} height={500}  />
+              <Image src="/assets/iphone.webp" alt="iPhone" width={650} height={500}  />
               </Box >
             </Grid>
             <Grid item xs={12} md={6}>

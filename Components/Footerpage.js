@@ -17,7 +17,7 @@ export default function  Footer ()  {
          <Grid item md={4} sx={{}}>
           <Stack >
             <Box  >
-            <Image src="/footerlogo.svg" alt="logo" width={200} height={100}  /> 
+            <Image src="/assets/footerlogo.svg" alt="logo" width={200} height={100}  /> 
             </Box>
             <Typography  color="textSecondary">Saving time for health practitioners: speedy patient note finalisation, supported by A.I.</Typography>
             <Box width={220} sx={{display:'flex', justifyContent:'space-between'}} >

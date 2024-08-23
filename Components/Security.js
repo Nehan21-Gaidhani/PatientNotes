@@ -5,7 +5,7 @@ export default function ComplianceSection()  {
  
   const cardData = [
     {
-      imageSrc: "/hipaa.svg",
+      imageSrc: "/assets/hipaa.svg",
       imageAlt: "HIPAA compliance",
       title: "HIPAA compliance",
       description: "We meet all HIPAA requirements to ensure the confidentiality and security of Protected Health Information (PHI).",
@@ -13,7 +13,7 @@ export default function ComplianceSection()  {
       buttonLink: "/privacy-and-compliance/hipaa"
     },
     {
-      imageSrc: "/gdpr.svg",
+      imageSrc: "/assets/gdpr.svg",
       imageAlt: "GDPR compliance",
       title: "GDPR compliance",
       description: "We follow the data regulations established by the GDPR, UK GDPR, and UK Data Protection Act to ensure the privacy and security of personal data for individuals within the EU and UK.",
@@ -21,7 +21,7 @@ export default function ComplianceSection()  {
       buttonLink: "/privacy-and-compliance/gdpr"
     },
     {
-      imageSrc: "/ausprivacy.svg",
+      imageSrc: "/assets/ausprivacy.svg",
       imageAlt: "Australian Privacy Act 1998",
       title: "Australian Privacy Act 1998",
       description: "PatientNotes is fully compliant with the Australian Privacy Act 1998 and the Australian Privacy Principles.",
