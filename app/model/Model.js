@@ -67,7 +67,7 @@ Don't change the things which are not specified. If medication is specified, the
       const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
       const result = await model.generateContent(formattedQuery);
       const response = await result.response.text();
-      console.log(response);
+     
 
       const formattedResponse = breakString(response);
 
@@ -77,7 +77,7 @@ Don't change the things which are not specified. If medication is specified, the
 
       setEditorState(editorState);
       setResponseText(formattedResponse);
-    } catch (error) {
+    } catch (error) {  
       console.error('Error generating content:', error);
       setResponseText('An error occurred while generating the content.');
     }
