@@ -112,7 +112,7 @@ Don't change the things which are not specified. If medication is specified, the
       <Box mt={4} sx={{ display: 'flex', alignItems: 'center', color: 'rgb(41, 87, 106)', fontWeight: 'bold', width: "1920px", justifyContent: 'left', borderBottom: '2px solid #f3f3f4', padding: '10px', }}>
         <PersonIcon sx={{ marginRight: 1, fontSize: '45px' }} />
         <Typography variant="h4" sx={{ color: 'rgb(41, 87, 106)', fontWeight: 'bold' }}>{text}</Typography>
-        <Typography variant="h6" ml={150} sx={{ color: 'rgb(41, 87, 106)', fontWeight: 'bold' }}>Age:{age}</Typography>
+        <Typography variant="h5" ml={150} sx={{ color: 'rgb(41, 87, 106)', fontWeight: 'bold' }}>Age:{age}</Typography>
       </Box>
       
       <Box sx={{ width: "100%", padding: 2, backgroundColor: 'white', display: 'flex', justifyContent: 'space-between' }}>

@@ -61,6 +61,7 @@ export default function Name() {
               backgroundColor: '#ffffff',
               border: '1px solid #00374e',
               borderRadius: '8px',
+
             }}
           >
             <Typography variant='h6' sx={{ color: 'rgb(35, 68, 91)', fontWeight: 'bold' }}>
@@ -73,9 +74,11 @@ export default function Name() {
                 value={textValue}
                 onChange={handleChange}
                 fullWidth
+                sx={{ marginBottom: 2 }} 
               />
                <TextField
-                label="Enter patient age"
+                
+                label="Enter age"
                 variant="outlined"
                 value={age}
                 onChange={handleAge}
