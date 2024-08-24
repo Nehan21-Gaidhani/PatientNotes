@@ -41,10 +41,11 @@ export default function Name() {
             sx={{
               width: '300px',
               height: '400px',
-              backgroundImage: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK8M2KPZlsFVEt_mbxJx12B3lU2vNdpvHn7Q&s)',
+              backgroundImage: 'url(/assets/doctor.webp)',
               backgroundSize: 'cover',
               backgroundPosition: 'center',
               marginRight: 4,
+              borderRadius:'8px',
             }}
           />
           <Box
