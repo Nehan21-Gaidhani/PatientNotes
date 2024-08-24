@@ -6,14 +6,19 @@ import { useRouter } from 'next/navigation';
 
 export default function Name() {
   const [textValue, setTextValue] = useState('');
+  const[age,setAge]=useState('');
   const router = useRouter();
 
   const handleChange = (event) => {
     setTextValue(event.target.value);
   };
-
+ const handleAge =(event) =>
+ {
+  setAge(event.target.value);
+ }
   const handleSubmit = () => {
     localStorage.setItem('textValue', textValue);
+    localStorage.setItem('age', age);
     router.push('/model/session');
   };
 
@@ -69,6 +74,14 @@ export default function Name() {
                 onChange={handleChange}
                 fullWidth
               />
+               <TextField
+                label="Enter patient age"
+                variant="outlined"
+                value={age}
+                onChange={handleAge}
+                fullWidth
+              />
+              
               <Button
                 variant="contained"
                 onClick={handleSubmit}
