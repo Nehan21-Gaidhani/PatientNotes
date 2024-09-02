@@ -18,13 +18,7 @@ export default function Home() {
 <Header /> 
 <Mainpage />
 <Videopage/>
-<Cardpage1/>
-<Review/>
-<ComplianceSection/>
-<Appdes/>
-<Platform/>
-<Chat/>
-<Footer/>
+
  </div>
   );
 }
