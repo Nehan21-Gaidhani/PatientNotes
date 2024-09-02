@@ -9,13 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.24.7",
+    "@babel/runtime": "^7.25.0",
+    "@editorjs/editorjs": "^2.30.5",
     "@emotion/react": "^11.13.0",
     "@emotion/styled": "^11.13.0",
+    "@google/generative-ai": "^0.17.0",
     "@mui/icons-material": "^5.16.7",
     "@mui/material": "^5.16.7",
     "bootstrap": "^5.3.3",
+    "draft-js": "^0.11.7",
+    "draftjs-to-html": "^0.9.1",
     "next": "14.2.5",
+    "openai": "^4.56.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-draft-wysiwyg": "^1.15.0",
+    "react-speech-recognition": "^3.10.0"
   }
 }
