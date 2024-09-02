@@ -3,10 +3,10 @@ import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 
 import Link from '@mui/material/Link';
-import Image from 'next/image';
+// import Image from 'next/image';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import logo from "../public/assets/logo-workmark-white.svg"
+// import logo from "../public/assets/logo-workmark-white.svg"
 export default function Header() {
   return (
     <AppBar 
@@ -25,7 +25,7 @@ export default function Header() {
       <Toolbar disableGutters sx={{ justifyContent: 'space-between' ,border: 'none'}}>
         
          <Box sx={{ display: 'flex', alignItems: 'center', marginRight: 30 ,marginLeft:3}}>
-          <Link href="/" sx={{ display: 'flex', alignItems: 'center', }} underline="none">
+          {/* <Link href="/" sx={{ display: 'flex', alignItems: 'center', }} underline="none">
             <Image
               alt="PatientNotes Logo"
               loading="lazy"
@@ -36,7 +36,7 @@ export default function Header() {
               
               unoptimized
             />
-          </Link>
+          </Link> */}
         </Box>
 
        
