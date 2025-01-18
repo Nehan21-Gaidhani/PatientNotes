@@ -10,7 +10,7 @@ import htmlToDraft from 'html-to-draftjs';
 import MicIcon from '@mui/icons-material/Mic';
 import StopIcon from '@mui/icons-material/Stop';
 import PersonIcon from '@mui/icons-material/Person';
-const genAI = new GoogleGenerativeAI("AIzaSyB2SBzbcqy_G0D3pi4FqncWWWUXHRyoTp4");
+const genAI = new GoogleGenerativeAI("AIzaSyDjqIYsD8iBm-j7ESV3f9aUvlkPzU0uddA");
 
 export default function Speech() {
   const { transcript, browserSupportsSpeechRecognition, listening } = useSpeechRecognition();
